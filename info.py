@@ -73,7 +73,7 @@ TUTORIAL = environ.get('TUTORIAL', 'https://t.me/VIDEOLINK15/32') # Tutorial vid
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', False))
 
 #Channel & Group link 
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/movie7xchat')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+exy6N7Z2bG4wODFl')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/R3D_TUB3')
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/C0URSED_DEVIL')
 MOVIE_UPDATE_CHANNEL_LNK = environ.get('DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK', 'https://t.me/R3D_TUB3')

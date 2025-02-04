@@ -2063,13 +2063,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('× ᴀʟʟ ᴏᴜʀ ʟɪɴᴋꜱ ×', url="https://t.me/R3D_TUB3")
        ],[
-            InlineKeyboardButton('• ɢʀᴏᴜᴘ •', url="t.me/movie7xchat"),
+            InlineKeyboardButton('• ɢʀᴏᴜᴘ •', url="t.me/+exy6N7Z2bG4wODFl"),
             InlineKeyboardButton('• ᴜᴘᴅᴀᴛᴇs •', url="t.me/filims_18")
        ],[
             InlineKeyboardButton('• sᴇʀɪᴇsғʟɪx •', url="https://t.me/+7xD3ixWUhLlhYTQ1"),
-            InlineKeyboardButton('• ᴍᴏᴠɪᴇғʟɪx •', url="https://t.me/movieflixspot")
+            InlineKeyboardButton('• ᴍᴏᴠɪᴇғʟɪx •', url="https://t.me/+exy6N7Z2bG4wODFl")
        ],[
-            InlineKeyboardButton('• ᴀɴɪᴍᴇ ᴄʀᴜɪsᴇ •', url="https://t.me/Anime_Cruise_Netflix")
+            InlineKeyboardButton('• ᴀɴɪᴍᴇ ᴄʀᴜɪsᴇ •', url="https://t.me/+QyYAStExTrE4Nzhl")
        ],[ 
             InlineKeyboardButton('• ʙᴀᴄᴋ •', callback_data='start')
         ]]
