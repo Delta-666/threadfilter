@@ -26,7 +26,7 @@ APPROVAL_WAIT_TIME = 10  # seconds
         
 #         # Create buttons with the invite link and updates channel link
 #         buttons = [
-#             [InlineKeyboardButton('• ᴊᴏɪɴ ᴍʏ ᴜᴘᴅᴀᴛᴇs •', url='https://t.me/codeflix_bots')],
+#             [InlineKeyboardButton('• ᴊᴏɪɴ ᴍʏ ᴜᴘᴅᴀᴛᴇs •', url='https://t.me/filims_18')],
 #             [InlineKeyboardButton(f'• ᴊᴏɪɴ {chat.title} •', url=invite_link)]
 #         ]
 #         markup = InlineKeyboardMarkup(buttons)

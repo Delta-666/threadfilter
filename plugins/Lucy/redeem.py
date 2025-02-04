@@ -157,7 +157,7 @@ async def redeem_20_codes(client, message):
 
         # Inline button with the redeem link
         keyboard = InlineKeyboardMarkup(
-            [[InlineKeyboardButton("• ʀᴇᴅᴇᴇᴍ ʜᴇʀᴇ •", url="https://t.me/Lucy_Filter_bot")]]
+            [[InlineKeyboardButton("• ʀᴇᴅᴇᴇᴍ ʜᴇʀᴇ •", url="https://t.me/NargisFakhri_Bot")]]
         )
 
         # Final message format
@@ -165,7 +165,7 @@ async def redeem_20_codes(client, message):
             f"Gɪғᴛᴄᴏᴅᴇ Gᴇɴᴇʀᴀᴛᴇᴅ ✅\nAᴍᴏᴜɴᴛ: 20\n\n{codes_message}\n\nᴅᴜʀᴀᴛɪᴏɴ : {time}\n\n"
             "𝗥𝗲𝗱𝗲𝗲𝗺 𝗜𝗻𝘀𝘁𝗿𝘂𝗰𝘁𝗶𝗼𝗻\n"
             "ᴊᴜsᴛ ᴄʟɪᴄᴋ ᴄᴏᴅᴇ ᴛᴏ ᴄᴏᴘʏ ɪᴛ ᴀɴᴅ sᴇɴᴅ ɪᴛ ᴛᴏ "
-            "@lucy_filter_bot",
+            "@NargisFakhri_Bot",
             reply_markup=keyboard,
             disable_web_page_preview=True
         )

@@ -48,10 +48,10 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('• ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴜʀ ᴄʜᴀᴛ •', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('• ᴍᴀsᴛᴇʀ •', url="https://t.me/sewxiy"),
-                    InlineKeyboardButton('• sᴜᴘᴘᴏʀᴛ •', url='https://t.me/codeflixsupport')
+                    InlineKeyboardButton('• ᴍᴀsᴛᴇʀ •', url="https://t.me/C0URSED_DEVIL"),
+                    InlineKeyboardButton('• sᴜᴘᴘᴏʀᴛ •', url='https://t.me/+LT1g5ISwNzFkMmQ0')
                 ],[
-                    InlineKeyboardButton('• ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ •', url="https://t.me/codeflix_bots")
+                    InlineKeyboardButton('• ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ •', url="https://t.me/filims_18")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(script.GSTART_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup, disable_web_page_preview=True)
@@ -1515,8 +1515,8 @@ async def help(bot, message):
 @Client.on_message(filters.command("support"))
 async def support(bot, message):
     btn = [[
-         InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/weebs_support"),
-         InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url="https://t.me/codeflix_bots")
+         InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/+LT1g5ISwNzFkMmQ0"),
+         InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url="https://t.me/filims_18")
     ]]
     yt=await message.reply_photo(photo='https://graph.org/file/8b50e21db819f296661b7.jpg', caption=script.SUPPORT_TXT, reply_markup=InlineKeyboardMarkup(btn))
     await asyncio.sleep(300)
@@ -1527,7 +1527,7 @@ async def support(bot, message):
 async def donation(bot, message):
     btn = [[
         InlineKeyboardButton(text="ᴄʟᴏsᴇ", callback_data="close_data"),
-        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url=f'https://t.me/+DnmZbLjS0iw0YWI1'),
+        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url=f'https://t.me/+LT1g5ISwNzFkMmQ0'),
     ]]
     yt=await message.reply_photo(photo='https://graph.org/file/1919fe077848bd0783d4c.jpg', caption=script.DONATE_TXT, reply_markup=InlineKeyboardMarkup(btn))
     await asyncio.sleep(300)
